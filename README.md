@@ -1,7 +1,7 @@
 # Base search app with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This is single page application (SPA) using React where the user can filter through data using a search bar. The page displays a search bar, and list of (filterable) results below it. The user can type a value in the search bar. The dataset is filtered in real-time based on the search.
+This is single page application (SPA) using React where the user can filter through data using a search bar. The page displays a search bar and list of (filterable) results below it. The user can type a value in the search bar and the dataset is filtered in real-time based on the search.
 The URL updates on every search to contain the query, and accepts a query-string query on load if one is specified. This allows for a particular search query to be shared externally. The data is stored in Firebase.
 
 ## Available Scripts
