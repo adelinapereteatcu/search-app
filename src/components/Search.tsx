@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { db } from "../api/firebase-config";
 import { collection, getDocs } from "firebase/firestore";
 import { List } from "./List";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router";
 import styled from "@emotion/styled";
+import { db } from "../config/firebase-config";
 // import { DATASET } from "../data/Dataset";
 
 const Input = styled("input")`
