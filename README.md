@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This is single page application (SPA) using React where the user can filter through data using a search bar. The page displays a search bar and list of (filterable) results below it. The user can type a value in the search bar and the dataset is filtered in real-time based on the search.
 The URL updates on every search to contain the query, and accepts a query-string query on load if one is specified. This allows for a particular search query to be shared externally. The data is stored in Firebase.
 
+## Important
+Firebase configurations are encrypted with `git-crypt`. If you received a symmetric secret key (git-crypt-key), add it in the root folder of the project and commit the changes locally (that is required so that `git-crypt unlock git-crypt-key` command could run successfully). After that run `npm install` and `npm start` to start the project locally. 
+
 ## Available Scripts
 
 In the project directory, you can run:
